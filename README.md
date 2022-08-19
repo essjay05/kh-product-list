@@ -28,6 +28,8 @@ To get started, you do need node installed. If you don't, you can just write you
 
 To get set up with the provided code, open the directory in your terminal and run `npm install`. Once set up, run `npm start` to run the code. Once running, the code will be visible in your web browser at `localhost:3000`. You can also run `npm test` to run the test-suite, but we *do not* expect you to write tests for this.
 
+For what it's worth, this code was constructed and runs on Node's version 16 LTS release. We haven't tested it on newer or older versions.
+
 ## Rules
 - You may use the same tools you use whenever you write code. That includes your favorite text-editor and any extensions.
 - You may consult references, including on the internet, for syntax, etc as though you were solving any programming problem you'd come across at work. But please DON'T search for ready-made solutions to the whole problem.
