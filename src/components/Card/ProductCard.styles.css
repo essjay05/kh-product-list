@@ -1,0 +1,29 @@
+.product-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  margin: 1.25rem;
+  text-align: center;
+  border: .15rem solid var(--blue-color);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.product-details-list {
+  list-style: none;
+  margin: .75rem auto 1.5rem;
+  padding: 0;
+}
+
+.product-details-list li {
+  padding-bottom: .5rem;
+}
+
+.product-card-btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: .75rem auto;
+}
