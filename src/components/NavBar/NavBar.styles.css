@@ -1,0 +1,26 @@
+.nav-bar-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: .5rem auto;
+  padding: .5rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  list-style: none;
+  text-decoration: none;
+  transform: text-decoration 1s ease-in-out;
+}
+
+.nav-links > li {
+  margin: 0 .5rem;
+}
+
+.nav-links li:hover, .nav-links li:focus {
+  cursor: pointer;
+  text-decoration: underline;
+}

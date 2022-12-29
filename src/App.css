@@ -25,9 +25,17 @@
   font-size: large;
 }
 
+section {
+  margin: .75rem auto;
+}
+
 .products-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+.product-list-container {
+  padding: .75rem auto;
 }
