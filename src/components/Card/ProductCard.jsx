@@ -15,7 +15,7 @@ const ProductCard = ({ product }) => {
       className='product-card-link-wrapper'
       aria-label={`To ${name} ${formulation} ${strength} product page`}>
       <div
-        className='product-card-container'
+        className='product-card-container py-3'
         id={id}>
         <h3>{name}</h3>
         <div className='product-icon-container'>
@@ -24,10 +24,6 @@ const ProductCard = ({ product }) => {
             height='32'
             width='32' />
         </div>
-        {/* <img 
-          className='card-img'
-          src={img_url}
-          alt={`${name} ${formulation} ${strength}`}/> */}
         <ul className='product-details-list'>
           <li>Type: {formattedFormulation}</li>
           <li>Strength: {strength}</li>
