@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Product from './pages/Product'
 
-// import ProductCard from './components/Card/ProductCard'
 import NavBar from './components/NavBar/NavBar'
 import './App.css'
 
