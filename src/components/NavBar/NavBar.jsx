@@ -1,5 +1,5 @@
 import './NavBar.styles.css'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const NavBar = () => {
 
@@ -8,7 +8,7 @@ const NavBar = () => {
       <h1>KH Products</h1>
       <nav>
         <ul className='nav-links'>
-          <li><Link to='/'>Home</Link></li>
+          <li><NavLink to='/'>Home</NavLink></li>
         </ul>
       </nav>
     </header>

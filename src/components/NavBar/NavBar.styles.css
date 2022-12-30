@@ -1,9 +1,14 @@
+@import '../../index.css';
+
 .nav-bar-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: .5rem auto;
-  padding: .5rem;
+  padding: .5rem 1.5rem;
+  width: 100%;
+  background-color: var(--off-white-color);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
 .nav-links {
@@ -12,12 +17,12 @@
   justify-content: space-around;
   position: relative;
   list-style: none;
-  text-decoration: none;
-  transform: text-decoration 1s ease-in-out;
+  transition: text-decoration 1s ease-in-out;
 }
 
-.nav-links > li {
+.nav-links > li a {
   margin: 0 .5rem;
+  text-decoration: none;
 }
 
 .nav-links li:hover, .nav-links li:focus {
