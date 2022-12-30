@@ -8,7 +8,9 @@ const NavBar = () => {
       <h1>KH Products</h1>
       <nav>
         <ul className='nav-links'>
-          <li><NavLink to='/'>Home</NavLink></li>
+          <li className='title-style-4'>
+            <NavLink to='/'>Home</NavLink>
+          </li>
         </ul>
       </nav>
     </header>
