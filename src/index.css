@@ -1,5 +1,73 @@
+:root {
+  --main-font-family: Roboto, 'sans-serif';
+  --black-color: #2d3436;
+  --dark-grey-color: #636e72;
+  --light-grey-color: #dfe6e9;
+  --white-color: #ffffff;
+  --off-white-color: #f5f6fa;
+  --red-color: #d63031;
+  --yellow-color: #fdcb6e;
+  --green-color: #00b894;
+  --blue-color: #0984e3;
+  --dark-blue-color: #192a56;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-size: 16px;
 }
+
+section {
+  margin: .75rem auto;
+  max-width: 95%;
+}
+
+button {
+  border: 2px solid transparent;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  margin: .5rem;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  font-weight: 600;
+  font-size: 1.25rem;
+  transition: .5s ease-in-out;
+}
+
+button:hover {
+  border-color: var(--dark-blue-color);
+  color: var(--dark-blue-color);
+}
+
+h1, .title-style-1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2, .title-style-2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+h3, .title-style-3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h4, .title-style-4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h5, .title-style-5 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h6, .title-style-6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
