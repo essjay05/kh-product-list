@@ -82,10 +82,10 @@ export function Home() {
   }, [])
 
   return (
-    <section className='home-page-container'>
+    <section className='home-page-container pt-5'>
       {products.length > 0 && !loading ?
           <div className='product-list-container'>
-            <h2 className='page-title'>Products</h2>
+            <h2 className='page-title text-center'>Product List</h2>
             <div className='products-list'>
               {
                 products.map((prod) => {
@@ -101,10 +101,10 @@ export function Home() {
           </div>:
             loading ?
             <div className='product-list-container'>
-              <h2>Loading</h2>
+              <h2 className='page-title text-center'>Loading...</h2>
             </div> :
               <div className='product-list-container'>
-                <h2>No products found</h2>
+                <h2 className='page-title text-center'>No products found</h2>
               </div>
         }
     </section>
