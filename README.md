@@ -51,3 +51,10 @@ If you don't understand a part of the assignment, please don't hesitate to ask u
 -Created clear cart functionality
 -Checked responsive screenwidths
 -Checked accessibility
+
+## Joy S. Proposed Additional Features
+
+-Create cart object in store which would tabulate all added orders of each drug
+-Create cart page where you can view all orders added to cart
+-Create alert upon adding order to cart
+-Create filter feature on list of drugs to filter by drug name, drug type, and drug strength
