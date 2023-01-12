@@ -21,7 +21,6 @@ const Product = () => {
   const incrementProductBy15 = () => {
     setProductCount(productCount + 15)
     // calculateOrderCost()
-    console.log(`productCount: ${productCount}`)
     return productCount + 15
   }
   const decrementProductBy15 = () => {
